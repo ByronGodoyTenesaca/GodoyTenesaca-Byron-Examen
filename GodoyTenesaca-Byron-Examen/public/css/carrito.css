@@ -1,0 +1,92 @@
+body{
+    background-color: seashell;
+}
+
+nav{
+    background-color:bisque;
+    height: auto;
+    display: inline-block;
+    width: 100%;
+}
+
+nav>a{
+    position: relative;
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+    left: 30px;
+    top: 10px;
+    background-color: rgb(156, 148, 148);
+    border-radius: 10%;
+}
+.buscar{
+    width: 5%;
+    position: relative;
+    right: 250px;
+    top: 20px;
+    float: left;
+}
+.buscar input{
+    position: relative;
+    width: 150px;
+    height: 20px;
+    bottom: 10px;
+}
+
+#titulo{
+    width: 85%;
+    float: left;
+    margin: 0;
+    text-align: left;
+    font-size: 2rem;
+}
+
+.cuerpo{
+    width: 50%;
+    position: relative;
+    left: 25%;
+}
+table{
+    position: relative;
+    left: 2.8%;
+}
+table , td, th {
+    width: 95%;
+	border: 1px solid #595959;
+	border-collapse: collapse;
+}
+td, th {
+	padding: 3px;
+	width: 30px;
+	height: 25px;
+}
+th {
+	background: #f0e6cc;
+}
+
+input[type="submit"]{
+    font-size: 20px;
+    position: relative;
+    left: 41%;
+}
+h1{
+    text-align: center;
+}
+#nombre, #tarjeta, #observacion{
+    width: 50%;
+    margin: 5px;
+}
+
+#pagar{
+    font-size: 30px;
+    position: relative;
+    top: 20px;
+    left: 100px;
+}
+#total{
+    position: relative;
+    font-size: 20px;
+    width: 70px;
+    bottom: 10px;
+    right: 30px;
+}
